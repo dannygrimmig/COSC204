@@ -9,7 +9,24 @@ nav ol li{
 /* Section's of Notes*/
 div{
     background-color: rgba(242, 242, 242, 0.89);
-    border-bottom: 10px;
-    border-bottom-style:groove;
+    border: 10px;
+    border-style:groove;
     border-color:rgb(168, 205, 216);
+}
+
+/* Key Takeaways*/
+.takeaways{
+    background-color: rgb(158, 78, 78);
+}
+
+/* Footer */
+footer{
+    padding: 5px;
+}
+footer .left{
+    float: left;
+}
+
+footer .right{
+    float: right;
 }
