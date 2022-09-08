@@ -1,0 +1,15 @@
+/* Navigation Bar */
+nav ol{
+    display: inline;
+}
+nav ol li{
+    display: inline-block;
+}
+
+/* Section's of Notes*/
+div{
+    background-color: rgba(242, 242, 242, 0.89);
+    border-bottom: 10px;
+    border-bottom-style:groove;
+    border-color:rgb(168, 205, 216);
+}
