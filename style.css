@@ -10,7 +10,7 @@ nav ol li{
 div{
     background-color: rgba(242, 242, 242, 0.89);
     border: 10px;
-    border-style:groove;
+    border-top-style:dashed;
     border-color:rgb(168, 205, 216);
 }
 
