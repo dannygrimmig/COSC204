@@ -2,6 +2,9 @@
 ### Description
 Class Notes for Computing and Society
 
+### Goals
+Keep up HTML/CSS skills through lecture notes
+
 ### Includes
 Lectures, Assignment Notes, Exam StudyGuides
 
