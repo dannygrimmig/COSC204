@@ -1,6 +1,22 @@
+header h1 {
+    padding-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Viewable Screen*/
+main {
+    padding-left:200px;
+    padding-right:200px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+main h1 {
+    text-align: center;
+}
+
 /* Navigation Bar */
 nav ol{
     display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 nav ol li{
     display: inline-block;
