@@ -18,26 +18,37 @@ nav ol{
     display: inline;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 nav ol li{
     display: inline-block;
 }
+a {
+    text-decoration: none;
+    color: rgb(146, 146, 146);
+}
 
 /* Section's of Notes*/
+
 div{
-    background-color: rgba(242, 242, 242, 0.89);
+    padding: 10px;
+    
+    background-color: rgba(248, 248, 248, 0.89);
     border: 10px;
-    border-top-style:dashed;
+    
+    border-style:solid;
     border-color:rgb(168, 205, 216);
+    border-radius: 10px;    
 }
 
 /* Key Takeaways*/
 .takeaways{
-    background-color: rgb(158, 78, 78);
+    background-color: rgb(189, 99, 99);
+    color:rgba(248, 248, 248, 0.89);
 }
 
 /* Footer */
 footer{
-    padding: 5px;
+    padding: 50px;
 }
 footer .left{
     float: left;
