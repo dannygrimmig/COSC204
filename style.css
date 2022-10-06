@@ -1,16 +1,28 @@
 header h1 {
     padding-left: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:500;
+    margin-right: -25px;
+    display: inline-block;
+}
+
+.gray {
+    color: rgb(146, 146, 146);
+
 }
 
 /* Viewable Screen*/
 main {
+    margin-left: 100px;
+    margin-right: 100px;
     padding-left:200px;
     padding-right:200px;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
 }
 main h1 {
     text-align: center;
+    padding-top: 20px;
 }
 
 /* Navigation Bar */
