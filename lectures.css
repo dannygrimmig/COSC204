@@ -53,5 +53,10 @@ a {
     padding-top: 40px;
     padding-left: 10px;
     padding-right: 10px;
+    transition: all .3s ease-in-out;
+}
+
+a:hover{
+    transform: scale(0.95);
 }
 
