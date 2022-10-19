@@ -9,5 +9,4 @@ Keep up HTML/CSS skills through lecture notes
 Lectures, Assignment Notes, Exam StudyGuides
 
 ### How To Access
-1. Pull repository into a folder on your local device
-1. Open `index.html` to access course overview
+1. Click [Here](https://dannygrimmig.github.io/COSC204/index.html) or Search "https://dannygrimmig.github.io/COSC204/index.html"
