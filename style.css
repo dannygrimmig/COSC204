@@ -1,6 +1,8 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 header h1 {
     padding-left: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight:500;
     margin-right: -25px;
     display: inline-block;
@@ -17,7 +19,6 @@ main {
     margin-right: 100px;
     padding-left:200px;
     padding-right:200px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
     border-radius: 10px;
 }
 main h1 {
@@ -29,7 +30,6 @@ main h1 {
 /* Navigation Bar */
 nav ol{
     display: inline;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 nav ol li{
@@ -49,13 +49,13 @@ div{
     border: 10px;
     
     border-style:solid;
-    border-color:rgb(168, 205, 216);
+    border-color:skyblue;
     border-radius: 10px;    
 }
 
 /* Key Takeaways*/
 .takeaways{
-    background-color: rgb(189, 99, 99);
+    background-color:steelblue;
     color:rgba(248, 248, 248, 0.89);
 }
 
