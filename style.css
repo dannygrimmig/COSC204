@@ -43,20 +43,28 @@ a {
 /* Section's of Notes*/
 
 div{
-    padding: 10px;
-    
+    padding: 20px;
     background-color: rgba(248, 248, 248, 0.938);
-    border: 10px;
-    
-    border-style:solid;
-    border-color:skyblue;
-    border-radius: 10px;    
+    transition: all 1s;  
+}
+.takeaways{
+    background-color:indianred;
+    color:rgba(248, 248, 248, 0.89);
 }
 
-/* Key Takeaways*/
-.takeaways{
-    background-color:steelblue;
-    color:rgba(248, 248, 248, 0.89);
+div:hover{
+    transform: scale(1.1);
+    background-color: steelblue;
+    color: white;
+    outline-style: solid;
+    outline-color: skyblue;
+    outline-width: 10px;
+    border-radius: 10px;  
+
+}
+.takeaways:hover{
+    background-color: darkred;
+    outline-color: indianred;
 }
 
 /* Footer */
