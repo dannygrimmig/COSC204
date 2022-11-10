@@ -10,15 +10,12 @@ header h1 {
 
 .gray {
     color: rgb(146, 146, 146);
-
 }
 
 /* Viewable Screen*/
 main {
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-left:200px;
-    padding-right:200px;
+    margin-inline: auto;
+    width: min(75%);
     border-radius: 10px;
 }
 main h1 {
