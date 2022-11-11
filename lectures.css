@@ -10,8 +10,8 @@ main h1 {
 }
 
 main {
-    padding-left:200px;
-    padding-right:200px;
+    margin-inline: auto;
+    width: min(75%);
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -31,31 +31,44 @@ ol {
 
 .quiz {
     border-style: solid;
-    border-width: 5px;
+    border-width: 10px;
     border-radius: 10px;
-    text-align: center;
+    border-color: steelblue;
+
     padding-top: 75px;
     padding-left: 10px;
     padding-right: 10px;
-    color: lightblue;
+    
+    background-color: skyblue;
+    color: white;
+
+    text-align: center;
+    font-size: 200%;
     grid-column: 1 / -1;
 }
 
 
 a {
     text-decoration: none;
-    color: rgb(146, 146, 146);
+    border-color: skyblue;
+    background-color: steelblue;
+    color: white;
     border-style: solid;
-    border-width: 5px;
+    border-width: 10px;
     border-radius: 10px;
     text-align: center;
     padding-top: 40px;
     padding-left: 10px;
     padding-right: 10px;
-    transition: all .3s ease-in-out;
+    transition: all 1s;
 }
 
 a:hover{
-    transform: scale(0.95);
+    transform: scale(1.1);
+    background-color: steelblue;
+    color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-color: skyblue;
 }
 
