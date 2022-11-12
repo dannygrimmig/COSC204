@@ -1,74 +1,131 @@
-header h1 {
-    padding-left: 30px;
+body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight:500;
 }
 
-main h1 {
-    text-align: center;
-    padding-top: 20px;
+/* Computiing & Society */
+header h1 {
+    padding: 0 0 0 30px;
+    font-weight: 500;
+}
+/* Navigation Bar */
+nav{
+    padding-bottom: 10px;
+}
+nav ol{
+    display: inline;
 }
 
-main {
-    margin-inline: auto;
-    width: min(75%);
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-div{
-    padding: 10px;   
-}
-
-ol {
-    list-style-type: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-    grid-auto-rows: 200px;
-    grid-gap: 20px;
-}
-
-
-
-.quiz {
-    border-style: solid;
-    border-width: 10px;
-    border-radius: 10px;
-    border-color: steelblue;
-
-    padding-top: 75px;
-    padding-left: 10px;
+nav ol li{
+    display: inline-block;
     padding-right: 10px;
-    
-    background-color: skyblue;
-    color: white;
-
-    text-align: center;
-    font-size: 200%;
-    grid-column: 1 / -1;
 }
-
-
-a {
+nav ol li a {
     text-decoration: none;
-    border-color: skyblue;
-    background-color: steelblue;
+    color: rgb(146, 146, 146);
+}
+
+/* Main */
+main{
+    padding: 20px;
+    width: 90%;
+    margin-inline: auto;
+}
+
+/* All Months */
+main div{
+    padding: 20px;
+    border-radius: 20px;
+    width: 90%;
+    margin-inline: auto;
+    margin-bottom: 20px;
+
+    transition: all 1s;
+}
+main div:hover{
+    transform: scale(.95);
+}
+
+/* Month Headers */
+main div h3{
+    margin-top: -5px;
+    margin-bottom: -5px;
+    font-size: 50px;
     color: white;
-    border-style: solid;
-    border-width: 10px;
-    border-radius: 10px;
+}
+
+/* Day Headers */
+main div h2{
     text-align: center;
-    padding-top: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
+    color:white;
+    font-size: 30px;
+}
+
+/* List of Classes */
+main div ol{
+    width: 90%;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:5px;
+    padding-left: 0px;
+}
+
+/* Specific Class Items */
+main div ol li{
+    list-style: none;
+}
+
+/* Date mm.dd */
+main div ol li h4{
+    padding-left: 20px;
+}
+
+/* Lecture Subject */
+main div ol li h5{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+/* Calender Square */
+main div ol a{
+    height: 200px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+
     transition: all 1s;
 }
 
-a:hover{
+main div ol a:hover{
     transform: scale(1.1);
-    background-color: steelblue;
-    color: white;
-    border-style: solid;
-    border-width: 10px;
-    border-color: skyblue;
 }
 
+
+/* Specific Months */
+#august{
+    background-color: powderblue;
+}
+#august a{
+    background-color: steelblue;
+}
+#september{
+    background-color: salmon;
+}
+#september a{
+    background-color: indianred;
+}
+#october{
+    background-color: antiquewhite;
+}
+#october a{
+    background-color: wheat;
+}
+#november{
+    background-color: steelblue;
+}
+#november a{
+    background-color: lightskyblue;
+}
