@@ -41,9 +41,7 @@ main div{
 
     transition: all 1s;
 }
-main div:hover{
-    transform: scale(.95);
-}
+
 
 /* Month Headers */
 main div h3{
